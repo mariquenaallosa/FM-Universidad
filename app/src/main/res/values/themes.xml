@@ -3,7 +3,13 @@
     <style name="Base.Theme.RadioUniversidad" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/darblue</item>
     </style>
 
     <style name="Theme.RadioUniversidad" parent="Base.Theme.RadioUniversidad" />
+    <style name="SeekBarCustomStyle">
+        <item name="android:layout_height">4dp</item> <!-- Ajusta la altura deseada -->
+    </style>
 </resources>
